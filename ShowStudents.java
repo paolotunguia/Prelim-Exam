@@ -12,7 +12,7 @@
             + pupil.getGradePoint()+"\n\n");
  
         Student s2 = new Student();// 2 cannot resolve sybmol points to 'S in Student
-        s2.setIDnumber(1920991);
+        s2.setIDnumber(9999);
         s2.setPoints(12);
         s2.setHours(3);
         s2.showIDnumber();

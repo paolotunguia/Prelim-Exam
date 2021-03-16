@@ -5,6 +5,14 @@ class Student
     private int hours;
     private int points;
  
+    Student()
+    {
+        IDnumber = 9999;
+        points = 12;
+        hours = 3;
+    }
+
+
     // the public get and set methods
     public void setIDnumber(int number)
     {
